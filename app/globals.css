@@ -1,26 +1,118 @@
 @import "tailwindcss";
 
 :root {
+  /* Thème sombre */
+  --background: #0a0a0a;
+  --foreground: #fafafa;
+  --card: #1a1a1a;
+  --card-foreground: #fafafa;
+  --primary: #FF0033;
+  --primary-foreground: #ffffff;
+  --secondary: #262626;
+  --secondary-foreground: #fafafa;
+  --muted: #262626;
+  --muted-foreground: #a3a3a3;
+  --accent: #e2002d;
+  --accent-foreground: #ffffff;
+  --border: #262626;
+  --input: #262626;
+  --ring: #ff1644;
+}
+
+.light {
+  /* Thème clair */
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #0a0a0a;
+  --card: #ffffff;
+  --card-foreground: #0a0a0a;
+  --primary: #FF0033;
+  --primary-foreground: #ffffff;
+  --secondary: #f4f4f5;
+  --secondary-foreground: #0a0a0a;
+  --muted: #f4f4f5;
+  --muted-foreground: #71717a;
+  --accent: #e2002d;
+  --accent-foreground: #ffffff;
+  --border: #e4e4e7;
+  --input: #e4e4e7;
+  --ring: #ff1644;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+/* Styles personnalisés pour le thème vert sombre */
+.green-gradient {
+  background: linear-gradient(135deg, #FF0033 0%, #ff0000 100%);
+}
+
+.green-glow {
+  box-shadow: 0 0 20px rgba(34, 197, 94, 0.3);
+}
+
+/* Animations personnalisées */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+/* Scrollbar personnalisée */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d1b0d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FF0033;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #e2002d;
+}
+
+/* Styles pour Masonry layout */
+.masonry-column {
+  background-clip: padding-box;
+}
+
+.masonry-column > div {
+  margin-bottom: 2rem;
 }
