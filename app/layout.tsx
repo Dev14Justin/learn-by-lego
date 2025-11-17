@@ -16,31 +16,31 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: "AI228 Hub - Le catalogue de l'IA au Togo",
+	title: "Learn By Lego - Apprenez à développer des fonctionnalités pour vos projets comme on construit un château de Lego.",
 	description:
-		"AI228 Hub est une plateforme open source qui recense les meilleures intelligences artificielles (IA) utilisées par les Togolais au quotidien.",
+		"Learn By Lego est une plateforme open source qui recense les meilleures fonctionnalités développées bloc par bloc.",
 	keywords:
-		"ia, intelligence artificielle, togo, open source, communauté, outils ia",
-	authors: [{ name: "Chaminade Dondah Adjolou" }],
+		"lego, open source, communauté, fonctionnalités lego",
+	authors: [{ name: "Justin MONDJI" }],
 	openGraph: {
-		title: "AI228 Hub - Le catalogue de l'IA au Togo",
+		title: "Learn By Lego - Apprenez à développer des fonctionnalités pour vos projets comme on construit un château de Lego.",
 		description:
-			"Découvrez et partagez les outils d'intelligence artificielle les plus utilisés par la communauté tech togolaise.",
+			"Découvrez et partagez des astuces pour developper plus rapidement des solutions digitaux.",
 		type: "website",
-		url: "https://github.com/Donchaminade/ai228-hub",
+		url: "https://github.com/Dev14Justin/learn-by-lego",
 		images: [
 			{
 				url: "/seo.png",
 				width: 1200,
 				height: 630,
-				alt: "AI228 Hub - Le catalogue de l'IA au Togo",
+				alt: "Learn By Lego Logo",
 			},
 		],
 	},
 	twitter: {
 		card: "summary_large_image",
-		title: "AI228 Hub - Le catalogue de l'IA au Togo",
-		description: "Découvrez et partagez les outils d'intelligence artificielle les plus utilisés par la communauté tech togolaise.",
+		title: "Learn By Lego",
+		description: "Learn By Lego, une plateforme open source qui recense les meilleures fonctionnalités développées bloc par bloc.",
 		images: ["/seo.png"],
 	},
 };

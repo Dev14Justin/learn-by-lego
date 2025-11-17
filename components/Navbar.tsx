@@ -11,21 +11,21 @@ export default function Navbar() {
       <div className=" max-w-6xl backdrop-blur border border-border md:rounded-2xl px-4 mx-auto flex h-16 items-center justify-between">
         {/* Logo et nom */}
         <div className="flex items-center">
-          <Image
-            src="/tg.png"
-            alt="Drapeau du Togo"
+          {/* <Image
+            src="/lego.png"
+            alt=" Logo Lego"
             width={24}
             height={24}
             className=" object-contain w-7 mr-2"
-          />
-          <h1 className="text-xl font-bold text-foreground">Learn Lego Lab</h1>
+          /> */}
+          <h1 className="text-xl font-bold text-foreground">Learn By Lego</h1>
         </div>
 
         {/* Navigation items */}
         <div className="flex items-center space-x-4">
           {/* Bouton Contribute avec logo GitHub */}
           <a
-                          href="https://github.com/Donchaminade/ai228-hub/"
+                          href="https://github.com/Dev14Justin/learn-by-lego"
             
             target="_blank"
             rel="noopener noreferrer"

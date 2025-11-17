@@ -1,43 +1,12 @@
 [
   {
     "id": 1,
-    "name": "ChatGPT",
-    "description": "Assistant IA développé par OpenAI, utile pour le code, le contenu et le brainstorming.",
-    "link": "https://chat.openai.com/",
-    "category": "Contenu",
-    "author": "Docteur-Parfait",
-    "date_added": "2025-10-27",
-    "utilisation": "Je l’utilise pour générer des idées de textes, corriger mes écrits et trouver des solutions de code rapidement."
-  },
-  {
-    "id": 2,
-    "name": "Midjourney",
-    "description": "Outil de génération d’images artistiques à partir de texte.",
-    "link": "https://midjourney.com/",
-    "category": "Images",
-    "author": "Chaminade",
-    "date_added": "2025-10-27",
-    "utilisation": "Je décris une scène en français simple, et Midjourney me génère des visuels magnifiques pour mes designs et présentations."
-  },
-  {
-    "id": 3,
-    "name": "OpenRouter",
-    "description": "Plateforme permettant d’accéder à plusieurs modèles d’intelligence artificielle via une seule API.",
-    "link": "https://openrouter.ai/",
-    "category": "IA & API",
-    "author": "Prince Ekpinse",
-    "date_added": "2025-10-27",
-    "utilisation": "J’utilise OpenRouter pour tester différents modèles d’IA (comme GPT, Claude ou Mistral) à partir d’une interface unique et facile à intégrer dans mes projets."
-  },
-  {
-    "id": 4,
-    "name": "Presentations AI",
-    "description": "Un outil qui convertit vos idées, textes ou documents en diaporamas professionnels pour vos présentations PowerPoint. Il gère le design tout en respectant l’identité visuelle de votre marque.",
-    "link": "https://www.presentations.ai/fr-fr",
-    "category": "IA & Design",
+    "titre": "Comment deployer une App sur Vercel",
+    "description": "Une introduction complète aux nouvelles fonctionnalités de Next.js 14, y compris les Server Actions.",
+    "link": "https://youtu.be/2yXb5lhGaC4?si=Fm1S4M9DC_33XtGn",
+    "category": "Deployement",
     "author": "Justin MONDJI",
-    "date_added": "2025-10-31",
-    "utilisation": "Je l'utilise pour créer mes présentations PowerPoint."
+    "date_added": "2025-11-17"
   }
-
+  
 ]
