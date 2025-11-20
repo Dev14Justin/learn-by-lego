@@ -2,20 +2,19 @@
   {
     "id": 1,
     "titre": "Comment deployer une App sur Vercel",
-    "description": "Une introduction complète aux nouvelles fonctionnalités de Next.js 14, y compris les Server Actions.",
+    "description": "Comment déployer une application sur Vercel. Découvrez les étapes essentielles pour mettre votre projet en ligne rapidement et facilement.",
     "link": "https://youtu.be/2yXb5lhGaC4?si=Fm1S4M9DC_33XtGn",
     "category": "Deployement",
     "author": "Justin MONDJI",
     "date_added": "2025-11-17"
   },
   {
-    "id": 1,
+    "id": 2,
     "titre": "L'IDE de Google avec GEMINI 3.0",
-    "description": "Une introduction complète aux nouvelles fonctionnalités de Next.js 14, y compris les Server Actions.",
+    "description": "Le nouvel IDE de Google avec GEMINI 3.0. Découvrez comment il rend le développement plus rapide et efficace.",
     "link": "https://youtu.be/QedvuTllbgY?si=GoXpPLlM7sMzHX-f",
     "category": "Editeur de code IA",
     "author": "Justin MONDJI",
     "date_added": "2025-11-20"
   }
-  
 ]
