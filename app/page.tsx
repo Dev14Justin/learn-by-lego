@@ -85,7 +85,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="bg-primary hover:bg-primary/90 text-primary-foreground px-6 py-3 rounded-lg font-medium transition-colors duration-200"
           >
-            Ajouter une vidéo depuis GitHub
+            Ajouter une vidéo
           </a>
         </section>
       </main>
