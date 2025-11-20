@@ -16,6 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+	metadataBase: new URL("https://github.com/Dev14Justin/learn-by-lego"),
 	title: "Learn By Lego - Apprenez à développer des fonctionnalités pour vos projets comme on construit un château de Lego.",
 	description:
 		"Learn By Lego est une plateforme open source qui recense les meilleures fonctionnalités développées bloc par bloc.",

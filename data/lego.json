@@ -7,6 +7,15 @@
     "category": "Deployement",
     "author": "Justin MONDJI",
     "date_added": "2025-11-17"
+  },
+  {
+    "id": 1,
+    "titre": "L'IDE de Google avec GEMINI 3.0",
+    "description": "Une introduction complète aux nouvelles fonctionnalités de Next.js 14, y compris les Server Actions.",
+    "link": "https://youtu.be/QedvuTllbgY?si=GoXpPLlM7sMzHX-f",
+    "category": "Editeur de code IA",
+    "author": "Justin MONDJI",
+    "date_added": "2025-11-20"
   }
   
 ]

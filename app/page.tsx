@@ -74,7 +74,7 @@ export default function Home() {
 
         <section className="text-center bg-card border border-border rounded-lg p-8">
           <h3 className="text-2xl font-bold text-card-foreground mb-4">
-            Partagez un outil IA !
+            Partagez une vidéo !
           </h3>
           <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
             Vous avez une astuce ou fonctionnalité à partager ? Transformez-la en bloc de Lego en l&apos;ajoutant.
@@ -85,7 +85,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="bg-primary hover:bg-primary/90 text-primary-foreground px-6 py-3 rounded-lg font-medium transition-colors duration-200"
           >
-            Ajouter une Lego depuis GitHub
+            Ajouter une vidéo depuis GitHub
           </a>
         </section>
       </main>
